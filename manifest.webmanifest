@@ -1,0 +1,24 @@
+{
+  "name": "Entre Tapas",
+  "short_name": "Entre Tapas",
+  "description": "Entre Tapas, restaurante de tapas en el Carrer de Roger de Flor, 100, Les Roquetes (Sant Pere de Ribes). Cocina casera, croquetas de la casa, vermut y trato cercano. 4,9 sobre 5 con 598 reseñas en Google.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fdf9f2",
+  "theme_color": "#2a1a12",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/photos/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/photos/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

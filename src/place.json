@@ -1,0 +1,148 @@
+{
+  "place": {
+    "id": "ChIJxX0lreGHoxIRtBl22Ncw_7E",
+    "cid": "12826023967382182324",
+    "name": "Entre Tapas",
+    "codeName": "entre-tapas",
+    "shortName": "Entre Tapas",
+    "formattedAddress": "Carrer de Roger de Flor, 100, 08812 Les Roquetes, Barcelona, Spain",
+    "street": "Carrer de Roger de Flor, 100",
+    "neighbourhood": "Les Roquetes",
+    "locality": "Sant Pere de Ribes",
+    "region": "Barcelona",
+    "postalCode": "08812",
+    "country": "ES",
+    "latitude": 41.2312701,
+    "longitude": 1.747625,
+    "primaryType": "tapas_restaurant",
+    "primaryTypeLabel": { "es": "Restaurante de tapas", "ca": "Restaurant de tapes", "en": "Tapas restaurant" },
+    "types": ["tapas_restaurant", "restaurant", "food", "point_of_interest", "establishment"],
+    "phoneNational": "628 00 96 23",
+    "phoneInternational": "+34 628 00 96 23",
+    "phoneE164": "+34628009623",
+    "whatsappNumber": "34628009623",
+    "website": "",
+    "rating": 4.9,
+    "userRatingCount": 598,
+    "businessStatus": "OPERATIONAL",
+    "timeZone": "Europe/Madrid",
+    "plusCode": "8FH36PJX+G2"
+  },
+
+  "map": {
+    "embedUrl": "https://www.google.com/maps?q=41.2312701,1.747625&z=17&hl=es&output=embed",
+    "placeUri": "https://maps.google.com/?cid=12826023967382182324",
+    "directionsUri": "https://www.google.com/maps/dir/?api=1&destination=41.2312701,1.747625&destination_place_id=ChIJxX0lreGHoxIRtBl22Ncw_7E",
+    "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x12a387e1ad257dc5:0xb1ff30d7d87619b4!9m1!1b1",
+    "writeReviewUri": "https://search.google.com/local/writereview?placeid=ChIJxX0lreGHoxIRtBl22Ncw_7E",
+    "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a387e1ad257dc5:0xb1ff30d7d87619b4!10e5"
+  },
+
+  "social": {
+    "_comment": "Only profiles present in the Places payload are listed. The payload contained no Instagram, Facebook or TikTok. Add 'instagram', 'facebook' or 'tiktok' with a full URL here and the icon appears automatically in the header and the mobile drawer.",
+    "google": "https://maps.google.com/?cid=12826023967382182324"
+  },
+
+  "reviews": [
+    {
+      "author": "Pau Vigil",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWvCSuVl93GmH2Rz6Pj5V7A5-eWFzpzwsUXREGjOewHp5o4M5re=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "lang": "en",
+      "date": "2025-07-18",
+      "profileUri": "https://www.google.com/maps/contrib/101540209001739627276/reviews",
+      "text": "A must try \u201ctapas\u201d experience. Have no doubt, Esteve and his team deliver. Will definitely comeback, thank you 5/5"
+    },
+    {
+      "author": "David Weatherill",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUNbiSn8y5A1MawvMz1EqjVv1ycWTMpWQkTz3RBtJV9di-IYv4R=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "lang": "en",
+      "date": "2026-07-12",
+      "profileUri": "https://www.google.com/maps/contrib/101540209001739627276/reviews",
+      "text": "Such friendly staff, translated the whole menu just for us. Amazing food, really authentic. Coming again!"
+    },
+    {
+      "author": "Angela Bestauti",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVMlYPz1Aj9P3bmAUyeVFyhD51n6DeFMOE44fzyADMKrXBDN1Y=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "lang": "en",
+      "date": "2024-07-27",
+      "profileUri": "https://www.google.com/maps/contrib/101540209001739627276/reviews",
+      "text": "Everything we had \u2014 calamares a la romana, cazuela del d\u00eda, croquetas, bravas \u2014 was delicious and had its own twist. The croquetas are their specialty and it shows: solid, meaty, not flour balls. The owner himself, whose name is Esteve, is a gentle soul and a friendly host. The vermouth is very aromatic."
+    },
+    {
+      "author": "Alana A",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVZjhxTA-AGTPJmX5M-mH1RG5ZGMUTKgq3AwTqSAfobrwDgQ7bO=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "lang": "en",
+      "date": "2024-09-03",
+      "profileUri": "https://www.google.com/maps/contrib/101540209001739627276/reviews",
+      "text": "Excellent food and service. The owner is very attentive and friendly. Local, authentic place \u2014 a must visit."
+    },
+    {
+      "author": "Simon",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW9GNkBhTxRxsc7ni58oKzXyUYLGbPI_lx5yRId5dVjpNsUh6I=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "lang": "en",
+      "date": "2024-11-09",
+      "profileUri": "https://www.google.com/maps/contrib/101540209001739627276/reviews",
+      "text": "Because it was so delicious, we came back the next day. Today we chose paella. It tasted just as good. Whenever we are back on holiday, this restaurant will be our first choice."
+    }
+  ],
+
+  "features": {
+    "serviceOptions": [
+      { "key": "Dine-in", "value": true },
+      { "key": "Takeaway", "value": true },
+      { "key": "Delivery", "value": true },
+      { "key": "Outdoor seating", "value": true },
+      { "key": "Reservable", "value": true }
+    ],
+    "foodAndDrink": [
+      { "key": "Breakfast", "value": true },
+      { "key": "Lunch", "value": true },
+      { "key": "Dinner", "value": true },
+      { "key": "Beer", "value": true },
+      { "key": "Wine", "value": true },
+      { "key": "Cocktails", "value": true },
+      { "key": "Coffee", "value": true },
+      { "key": "Dessert", "value": true },
+      { "key": "Vegetarian options", "value": true }
+    ],
+    "atmosphere": [
+      { "key": "Good for children", "value": true },
+      { "key": "Menu for children", "value": true },
+      { "key": "Good for groups", "value": true },
+      { "key": "Live music", "value": false },
+      { "key": "Good for watching sports", "value": false }
+    ],
+    "amenities": [
+      { "key": "Restroom", "value": true }
+    ],
+    "parking": [
+      { "key": "Free parking lot", "value": true },
+      { "key": "Free street parking", "value": true }
+    ],
+    "accessibility": [
+      { "key": "Wheelchair-accessible entrance", "value": true },
+      { "key": "Wheelchair-accessible restroom", "value": true },
+      { "key": "Wheelchair-accessible seating", "value": true }
+    ],
+    "payments": [
+      { "key": "Credit cards", "value": true },
+      { "key": "Debit cards", "value": true },
+      { "key": "Contactless (NFC)", "value": true },
+      { "key": "Cash only", "value": false }
+    ]
+  },
+
+  "kitchen": [
+    { "dish": "Croquetas", "es": "Croquetas caseras", "ca": "Croquetes casolanes", "en": "House croquettes", "note_es": "Su especialidad", "note_ca": "La seva especialitat", "note_en": "Their specialty" },
+    { "dish": "Patatas bravas", "es": "Patatas bravas", "ca": "Patates braves", "en": "Patatas bravas", "note_es": "Con salsa de la casa", "note_ca": "Amb salsa de la casa", "note_en": "With their own sauce" },
+    { "dish": "Calamares", "es": "Calamares a la romana", "ca": "Calamars a la romana", "en": "Fried calamari", "note_es": "Reci\u00e9n fritos", "note_ca": "Acabats de fregir", "note_en": "Freshly fried" },
+    { "dish": "Cazuela", "es": "Cazuela del d\u00eda", "ca": "Cassola del dia", "en": "Cazuela of the day", "note_es": "Cocinada despacio", "note_ca": "Cuinada a poc a poc", "note_en": "Slow-cooked daily" },
+    { "dish": "Paella", "es": "Paella", "ca": "Paella", "en": "Paella", "note_es": "Para compartir", "note_ca": "Per compartir", "note_en": "Made to share" },
+    { "dish": "Vermut", "es": "Vermut", "ca": "Vermut", "en": "Vermouth", "note_es": "Muy arom\u00e1tico", "note_ca": "Molt arom\u00e0tic", "note_en": "Aromatic" }
+  ]
+}

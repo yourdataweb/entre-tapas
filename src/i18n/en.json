@@ -1,0 +1,157 @@
+{
+  "locale": "en",
+  "htmlLang": "en-GB",
+  "ogLocale": "en_GB",
+  "dir": "ltr",
+
+  "meta": {
+    "title": "Entre Tapas — Tapas restaurant in Les Roquetes, Sant Pere de Ribes",
+    "description": "Entre Tapas, a tapas restaurant at Carrer de Roger de Flor, 100, Les Roquetes (Sant Pere de Ribes). Home cooking, house croquettes, vermouth and a warm welcome. Rated 4.9 out of 5 from 598 Google reviews.",
+    "ogTitle": "Entre Tapas — Homemade tapas in Les Roquetes",
+    "ogDescription": "Home cooking, house croquettes and aromatic vermouth in Les Roquetes, Sant Pere de Ribes. Rated 4.9 out of 5 on Google from 598 reviews."
+  },
+
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "Entre Tapas — home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "footerNav": "Footer navigation",
+    "socialNav": "Social media",
+    "atAGlance": "At a glance",
+    "mapTitle": "Map showing Entre Tapas on Carrer de Roger de Flor, Les Roquetes",
+    "waAria": "Message Entre Tapas on WhatsApp at 628 00 96 23",
+    "telAria": "Call Entre Tapas on 628 00 96 23",
+    "ratingAria": "Rated 4.9 out of 5 from 598 Google reviews",
+    "langSwitch": "Change language",
+    "posterAlt": "Illustration of the tapas counter at Entre Tapas, with sharing plates",
+    "newWindow": "opens in a new tab"
+  },
+
+  "brand": {
+    "sub": "Tapas · Les Roquetes"
+  },
+
+  "nav": {
+    "about": "The place",
+    "kitchen": "The kitchen",
+    "reviews": "Reviews",
+    "visit": "Visit"
+  },
+
+  "langSwitch": {
+    "es": { "short": "ES", "aria": "Ver esta página en español" },
+    "ca": { "short": "CA", "aria": "Veure aquesta pàgina en català" },
+    "en": { "short": "EN", "aria": "View this page in English" }
+  },
+
+  "hero": {
+    "title": "Tapas to share,<br>cooked like home.",
+    "lede": "A neighbourhood restaurant in Les Roquetes where the cooking still takes its time: croquettes that are their specialty, bravas with a sauce of their own, a slow-cooked cazuela of the day and a wonderfully aromatic vermouth. No rush, and an owner who keeps an eye on every table.",
+    "ctaPrimary": "Get directions",
+    "ctaWhatsapp": "WhatsApp",
+    "statRating": "out of 5 on Google",
+    "statReviews": "Google reviews",
+    "statWhere": "Sant Pere de Ribes"
+  },
+
+  "about": {
+    "eyebrow": "The place",
+    "title": "A neighbourhood spot<br>you end up loving.",
+    "p1": "Entre Tapas sits on Carrer de Roger de Flor in Les Roquetes, the part of Sant Pere de Ribes that faces the Garraf coast. It is a small, unpretentious restaurant with tables made for sharing and a kitchen that smells of stock from first thing in the morning.",
+    "p2": "People come here to eat well without ceremony: familiar dishes, honest produce and portions meant for the middle of the table. If it is your first time, ask about the croquettes and the cazuela of the day; if you are already a regular, you know why you keep coming back.",
+    "note": "Home-style tapas, to eat in, take away or have delivered.",
+    "factAddress": "Address",
+    "factPhone": "Phone",
+    "factCuisine": "Cuisine",
+    "cuisineValue": "Tapas and home-style Spanish cooking"
+  },
+
+  "kitchen": {
+    "eyebrow": "The kitchen",
+    "title": "What comes out of the kitchen",
+    "lede": "A short menu that moves with what is available. These are the dishes that keep turning up in the reviews — almost always for the same reason."
+  },
+
+  "capabilities": {
+    "serviceOptions": "Service",
+    "foodAndDrink": "Food and drink",
+    "atmosphere": "Atmosphere",
+    "amenities": "Amenities",
+    "parking": "Parking",
+    "accessibility": "Accessibility",
+    "payments": "Payments",
+    "labels": {
+      "Dine-in": "Dine in",
+      "Takeaway": "Takeaway",
+      "Delivery": "Delivery",
+      "Outdoor seating": "Outdoor seating",
+      "Reservable": "Reservations possible",
+      "Breakfast": "Breakfast",
+      "Lunch": "Lunch",
+      "Dinner": "Dinner",
+      "Beer": "Beer",
+      "Wine": "Wine",
+      "Cocktails": "Cocktails",
+      "Coffee": "Coffee",
+      "Dessert": "Dessert",
+      "Vegetarian options": "Vegetarian options",
+      "Good for children": "Good for children",
+      "Menu for children": "Children's menu",
+      "Good for groups": "Good for groups",
+      "Live music": "Live music",
+      "Good for watching sports": "Good for watching sport",
+      "Restroom": "Restroom",
+      "Free parking lot": "Free car park",
+      "Free street parking": "Free street parking",
+      "Wheelchair-accessible entrance": "Wheelchair-accessible entrance",
+      "Wheelchair-accessible restroom": "Wheelchair-accessible restroom",
+      "Wheelchair-accessible seating": "Wheelchair-accessible seating",
+      "Credit cards": "Credit cards",
+      "Debit cards": "Debit cards",
+      "Contactless (NFC)": "Contactless (NFC)",
+      "Cash only": "Cash only"
+    }
+  },
+
+  "reviews": {
+    "eyebrow": "What people say",
+    "title": "From the people who have eaten here",
+    "count": "{count} reviews",
+    "onGoogle": "on Google",
+    "readAll": "Read all reviews on Google",
+    "write": "Write a review",
+    "originalIn": "Original in {lang}"
+  },
+
+  "visit": {
+    "eyebrow": "Visit",
+    "title": "In the heart of Les Roquetes",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "directions": "Get directions",
+    "directionsSub": "Open in Maps",
+    "googleListing": "Google listing",
+    "googleListingSub": "Photos and reviews",
+    "openMap": "Open in Google Maps",
+    "note": "For larger groups it is worth calling ahead to book a table."
+  },
+
+  "footer": {
+    "writeReview": "Write a review",
+    "rights": "All rights reserved.",
+    "dataNote": "Google Maps data, current as of {date}.",
+    "credit": "Reviews belong to their authors."
+  },
+
+  "jsonLd": {
+    "cuisine": "Tapas, Spanish"
+  },
+
+  "languageNames": {
+    "es": "Spanish",
+    "ca": "Catalan",
+    "en": "English"
+  }
+}

@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Ilustración de una barra de tapas con platos para compartir">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b271b"/>
+      <stop offset="0.55" stop-color="#2a1a12"/>
+      <stop offset="1" stop-color="#1b110c"/>
+    </linearGradient>
+    <linearGradient id="tableGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a35"/>
+      <stop offset="1" stop-color="#5e3a20"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd897" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#f2b45d" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#f2b45d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdfbf6"/>
+      <stop offset="1" stop-color="#e6dccc"/>
+    </linearGradient>
+    <linearGradient id="wine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d1f2c"/>
+      <stop offset="1" stop-color="#4e0f18"/>
+    </linearGradient>
+    <linearGradient id="tileRow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#24405c"/>
+      <stop offset="1" stop-color="#2f5375"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back wall -->
+  <rect width="1600" height="900" fill="url(#wall)"/>
+
+  <!-- tiled dado along the wall, glazed blue like an old taberna -->
+  <g opacity="0.9">
+    <rect x="0" y="352" width="1600" height="126" fill="url(#tileRow)"/>
+    <g stroke="#1a2f45" stroke-width="3" opacity="0.85">
+      <path d="M0 388h1600M0 424h1600M0 460h1600"/>
+      <path d="M40 352v126M120 352v126M200 352v126M280 352v126M360 352v126M440 352v126M520 352v126M600 352v126M680 352v126M760 352v126M840 352v126M920 352v126M1000 352v126M1080 352v126M1160 352v126M1240 352v126M1320 352v126M1400 352v126M1480 352v126M1560 352v126"/>
+    </g>
+    <rect x="0" y="470" width="1600" height="10" fill="#8a5a35"/>
+  </g>
+
+  <!-- hanging lamps -->
+  <g>
+    <circle cx="300" cy="120" r="150" fill="url(#lampGlow)"/>
+    <circle cx="800" cy="96" r="190" fill="url(#lampGlow)"/>
+    <circle cx="1300" cy="130" r="150" fill="url(#lampGlow)"/>
+    <g stroke="#1b110c" stroke-width="4">
+      <path d="M300 0v64M800 0v46M1300 0v68"/>
+    </g>
+    <g fill="#e8a33d" stroke="#8a5a35" stroke-width="4">
+      <path d="M258 64h84l-14 34h-56Z"/>
+      <path d="M748 46h104l-17 40h-70Z"/>
+      <path d="M1258 68h84l-14 34h-56Z"/>
+    </g>
+    <g fill="#fff4dc" opacity="0.92">
+      <ellipse cx="300" cy="104" rx="17" ry="9"/>
+      <ellipse cx="800" cy="92" rx="20" ry="11"/>
+      <ellipse cx="1300" cy="108" rx="17" ry="9"/>
+    </g>
+  </g>
+
+  <!-- chalkboard menu on the wall -->
+  <g transform="translate(1010 150)">
+    <rect x="0" y="0" width="430" height="196" rx="10" fill="#12100d" stroke="#8a5a35" stroke-width="9"/>
+    <g stroke="#e9e2d2" stroke-width="4" stroke-linecap="round" opacity="0.82">
+      <path d="M34 52h96M34 82h150M34 112h118M34 142h172"/>
+      <path d="M290 52h96M290 82h74M290 112h104M290 142h60"/>
+    </g>
+    <path d="M34 26h362" stroke="#e8a33d" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- shelves with jars -->
+  <g>
+    <rect x="96" y="238" width="330" height="12" rx="4" fill="#7a4d2c"/>
+    <g>
+      <rect x="128" y="186" width="46" height="52" rx="6" fill="#d8cbbb" opacity="0.9"/>
+      <rect x="188" y="170" width="38" height="68" rx="6" fill="#c7b49b" opacity="0.9"/>
+      <rect x="240" y="192" width="52" height="46" rx="6" fill="#e0d5c3" opacity="0.85"/>
+      <rect x="308" y="176" width="42" height="62" rx="6" fill="#bda88c" opacity="0.9"/>
+      <g fill="#6b7a3a" opacity="0.85">
+        <rect x="128" y="206" width="46" height="26" rx="3"/>
+        <rect x="188" y="196" width="38" height="36" rx="3"/>
+        <rect x="240" y="212" width="52" height="20" rx="3"/>
+        <rect x="308" y="200" width="42" height="32" rx="3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- table top -->
+  <rect x="0" y="600" width="1600" height="300" fill="url(#tableGrad)"/>
+  <g stroke="#4a2d17" stroke-width="3" opacity="0.5">
+    <path d="M0 668h1600M0 742h1600M0 818h1600"/>
+    <path d="M210 600v300M520 600v300M880 600v300M1210 600v300M1470 600v300"/>
+  </g>
+  <rect x="0" y="600" width="1600" height="14" fill="#a06c3f" opacity="0.85"/>
+
+  <!-- sharing plates -->
+  <g>
+    <!-- plate 1: croquettes -->
+    <g transform="translate(340 726)">
+      <ellipse cx="0" cy="18" rx="196" ry="70" fill="url(#plate)" stroke="#cfc2ad" stroke-width="3"/>
+      <ellipse cx="0" cy="12" rx="150" ry="50" fill="none" stroke="#ded4c2" stroke-width="3"/>
+      <g fill="#c98a3f" stroke="#8d5a22" stroke-width="2.5">
+        <ellipse cx="-70" cy="4" rx="40" ry="20" transform="rotate(-14 -70 4)"/>
+        <ellipse cx="-4" cy="-10" rx="42" ry="21" transform="rotate(8 -4 -10)"/>
+        <ellipse cx="66" cy="2" rx="40" ry="20" transform="rotate(-6 66 2)"/>
+        <ellipse cx="-34" cy="26" rx="38" ry="19" transform="rotate(16 -34 26)"/>
+        <ellipse cx="40" cy="28" rx="36" ry="18" transform="rotate(-12 40 28)"/>
+      </g>
+    </g>
+
+    <!-- plate 2: bravas -->
+    <g transform="translate(830 764)">
+      <ellipse cx="0" cy="18" rx="186" ry="66" fill="url(#plate)" stroke="#cfc2ad" stroke-width="3"/>
+      <g fill="#e0a840" stroke="#b97d24" stroke-width="2">
+        <path d="M-96 6q28-30 58-8t52-10 46 12" stroke-width="26" fill="none" stroke-linecap="round" stroke="#e7ae4a"/>
+        <path d="M-84 26q34-20 62 2t54-4" stroke-width="22" fill="none" stroke-linecap="round" stroke="#d99b34"/>
+      </g>
+      <g fill="#c0402a" opacity="0.92">
+        <ellipse cx="-56" cy="2" rx="26" ry="12"/>
+        <ellipse cx="26" cy="-8" rx="30" ry="13"/>
+        <ellipse cx="76" cy="18" rx="22" ry="10"/>
+      </g>
+    </g>
+
+    <!-- plate 3: paella pan -->
+    <g transform="translate(1268 748)">
+      <ellipse cx="0" cy="10" rx="176" ry="64" fill="#3b3b3b"/>
+      <ellipse cx="0" cy="4" rx="152" ry="52" fill="#5a4a2a"/>
+      <g fill="#e7c56a">
+        <circle cx="-88" cy="-4" r="7"/><circle cx="-52" cy="12" r="7"/><circle cx="-14" cy="-10" r="7"/>
+        <circle cx="24" cy="14" r="7"/><circle cx="62" cy="-6" r="7"/><circle cx="98" cy="10" r="7"/>
+        <circle cx="-30" cy="26" r="6"/><circle cx="44" cy="28" r="6"/>
+      </g>
+      <g fill="#c8502f">
+        <ellipse cx="-64" cy="20" rx="18" ry="9"/><ellipse cx="8" cy="2" rx="20" ry="10"/><ellipse cx="82" cy="24" rx="16" ry="8"/>
+      </g>
+      <g fill="#6b7a3a">
+        <ellipse cx="-40" cy="-16" rx="12" ry="6"/><ellipse cx="46" cy="-18" rx="12" ry="6"/><ellipse cx="110" cy="-12" rx="10" ry="5"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- wine glasses and a bottle -->
+  <g transform="translate(566 560)">
+    <g>
+      <path d="M-18 0h36v34a18 18 0 0 1-36 0Z" fill="url(#wine)" opacity="0.95"/>
+      <path d="M-18 0h36v12h-36Z" fill="none" stroke="#f2e7d5" stroke-width="3" opacity="0.65"/>
+      <path d="M0 34v44M-16 78h32" stroke="#f2e7d5" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    </g>
+    <g transform="translate(84 6)">
+      <path d="M-16 0h32v30a16 16 0 0 1-32 0Z" fill="#c9a33f" opacity="0.92"/>
+      <path d="M0 30v46M-15 76h30" stroke="#f2e7d5" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- bottle -->
+  <g transform="translate(1030 520)">
+    <path d="M-20 76h40v-52c0-14-6-22-6-34V-26h-28v50c0 12-6 20-6 34Z" fill="#2c4a2a" stroke="#1a2f1a" stroke-width="3"/>
+    <rect x="-20" y="18" width="40" height="26" fill="#e8dcbf"/>
+    <path d="M-12 26h24M-12 36h24" stroke="#8a5a35" stroke-width="3"/>
+    <rect x="-14" y="-26" width="28" height="12" rx="3" fill="#a83d22"/>
+  </g>
+
+  <!-- olive bowl -->
+  <g transform="translate(180 812)">
+    <ellipse cx="0" cy="0" rx="76" ry="30" fill="#2f4f3a" stroke="#1e3527" stroke-width="3"/>
+    <g fill="#6b7a3a">
+      <circle cx="-34" cy="-6" r="11"/><circle cx="-6" cy="-12" r="11"/><circle cx="24" cy="-6" r="11"/><circle cx="-16" cy="4" r="11"/><circle cx="12" cy="6" r="11"/>
+    </g>
+    <g fill="#c8502f"><circle cx="-20" cy="-10" r="4"/><circle cx="18" cy="-2" r="4"/></g>
+  </g>
+
+  <!-- bread basket -->
+  <g transform="translate(1450 812)">
+    <ellipse cx="0" cy="6" rx="80" ry="30" fill="#8a5a35" stroke="#5e3a20" stroke-width="3"/>
+    <g fill="#d8a55e" stroke="#a8763a" stroke-width="2.5">
+      <ellipse cx="-28" cy="-6" rx="30" ry="16" transform="rotate(-12 -28 -6)"/>
+      <ellipse cx="16" cy="-10" rx="32" ry="17" transform="rotate(9 16 -10)"/>
+      <ellipse cx="0" cy="8" rx="26" ry="13"/>
+    </g>
+  </g>
+
+  <!-- warm vignette -->
+  <rect width="1600" height="900" fill="#1b110c" opacity="0.16"/>
+</svg>

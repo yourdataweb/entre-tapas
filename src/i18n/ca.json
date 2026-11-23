@@ -1,0 +1,157 @@
+{
+  "locale": "ca",
+  "htmlLang": "ca-ES",
+  "ogLocale": "ca_ES",
+  "dir": "ltr",
+
+  "meta": {
+    "title": "Entre Tapas — Restaurant de tapes a les Roquetes, Sant Pere de Ribes",
+    "description": "Entre Tapas, restaurant de tapes al Carrer de Roger de Flor, 100, les Roquetes (Sant Pere de Ribes). Cuina casolana, croquetes de la casa, vermut i tracte proper. 4,9 sobre 5 amb 598 ressenyes a Google.",
+    "ogTitle": "Entre Tapas — Tapes casolanes a les Roquetes",
+    "ogDescription": "Cuina casolana, croquetes de la casa i vermut a les Roquetes, Sant Pere de Ribes. 4,9 sobre 5 a Google amb 598 ressenyes."
+  },
+
+  "a11y": {
+    "skip": "Anar al contingut",
+    "home": "Entre Tapas — inici",
+    "openMenu": "Obrir menú",
+    "closeMenu": "Tancar menú",
+    "mainNav": "Navegació principal",
+    "footerNav": "Navegació del peu de pàgina",
+    "socialNav": "Xarxes socials",
+    "atAGlance": "D'un cop d'ull",
+    "mapTitle": "Mapa amb la ubicació d'Entre Tapas al Carrer de Roger de Flor, les Roquetes",
+    "waAria": "Escriure a Entre Tapas per WhatsApp al 628 00 96 23",
+    "telAria": "Trucar a Entre Tapas al 628 00 96 23",
+    "ratingAria": "Valoració de 4,9 sobre 5 basada en 598 ressenyes de Google",
+    "langSwitch": "Canviar d'idioma",
+    "posterAlt": "Il·lustració de la barra de tapes d'Entre Tapas, amb plats per compartir",
+    "newWindow": "s'obre en una pestanya nova"
+  },
+
+  "brand": {
+    "sub": "Tapes · les Roquetes"
+  },
+
+  "nav": {
+    "about": "La casa",
+    "kitchen": "La cuina",
+    "reviews": "Ressenyes",
+    "visit": "Visita'ns"
+  },
+
+  "langSwitch": {
+    "es": { "short": "ES", "aria": "Veure aquesta pàgina en castellà" },
+    "ca": { "short": "CA", "aria": "Veure aquesta pàgina en català" },
+    "en": { "short": "EN", "aria": "View this page in English" }
+  },
+
+  "hero": {
+    "title": "Tapes per compartir,<br>fet com a casa.",
+    "lede": "Un restaurant de barri a les Roquetes on la cuina es fa a poc a poc: croquetes que són la seva especialitat, braves amb salsa pròpia, cassola del dia i un vermut molt aromàtic. Sense presses i amb l'amo pendent de cada taula.",
+    "ctaPrimary": "Com arribar-hi",
+    "ctaWhatsapp": "WhatsApp",
+    "statRating": "sobre 5 a Google",
+    "statReviews": "ressenyes a Google",
+    "statWhere": "Sant Pere de Ribes"
+  },
+
+  "about": {
+    "eyebrow": "La casa",
+    "title": "Un local de barri,<br>dels que es fan estimar.",
+    "p1": "Entre Tapas és al Carrer de Roger de Flor, a les Roquetes, el barri de Sant Pere de Ribes que mira cap a la costa del Garraf. És un restaurant petit i sense pretensions, amb taules per compartir i una cuina que fa olor de brou des de primera hora.",
+    "p2": "Aquí es ve a menjar bé i sense cerimònia: plats de sempre, producte honest i racions pensades per posar al centre de la taula. Si és la teva primera vegada, pregunta per les croquetes i per la cassola del dia; si ja ets de la casa, ja saps per què tornes.",
+    "note": "Cuina casolana de tapes, per menjar al local, per emportar o a domicili.",
+    "factAddress": "Adreça",
+    "factPhone": "Telèfon",
+    "factCuisine": "Cuina",
+    "cuisineValue": "Tapes i cuina casolana espanyola"
+  },
+
+  "kitchen": {
+    "eyebrow": "La cuina",
+    "title": "El que surt de la cuina",
+    "lede": "Una carta curta que canvia segons el que hi ha. Aquests són els plats que més es repeteixen a les ressenyes — i gairebé sempre pel mateix motiu."
+  },
+
+  "capabilities": {
+    "serviceOptions": "Servei",
+    "foodAndDrink": "Menjar i beure",
+    "atmosphere": "Ambient",
+    "amenities": "Instal·lacions",
+    "parking": "Aparcament",
+    "accessibility": "Accessibilitat",
+    "payments": "Pagaments",
+    "labels": {
+      "Dine-in": "Per menjar al local",
+      "Takeaway": "Per emportar",
+      "Delivery": "A domicili",
+      "Outdoor seating": "Terrassa exterior",
+      "Reservable": "Es pot reservar",
+      "Breakfast": "Esmorzars",
+      "Lunch": "Dinars",
+      "Dinner": "Sopars",
+      "Beer": "Cervesa",
+      "Wine": "Vi",
+      "Cocktails": "Còctels",
+      "Coffee": "Cafè",
+      "Dessert": "Postres",
+      "Vegetarian options": "Opcions vegetarianes",
+      "Good for children": "Apte per a nens",
+      "Menu for children": "Menú infantil",
+      "Good for groups": "Ideal per a grups",
+      "Live music": "Música en directe",
+      "Good for watching sports": "Per veure esport",
+      "Restroom": "Lavabos",
+      "Free parking lot": "Aparcament gratuït",
+      "Free street parking": "Estacionament gratuït al carrer",
+      "Wheelchair-accessible entrance": "Entrada accessible amb cadira de rodes",
+      "Wheelchair-accessible restroom": "Lavabo accessible amb cadira de rodes",
+      "Wheelchair-accessible seating": "Taules accessibles amb cadira de rodes",
+      "Credit cards": "Targetes de crèdit",
+      "Debit cards": "Targetes de dèbit",
+      "Contactless (NFC)": "Pagament sense contacte (NFC)",
+      "Cash only": "Només efectiu"
+    }
+  },
+
+  "reviews": {
+    "eyebrow": "Què diuen",
+    "title": "Els qui ja hi han menjat",
+    "count": "{count} ressenyes",
+    "onGoogle": "a Google",
+    "readAll": "Veure totes les ressenyes a Google",
+    "write": "Escriure una ressenya",
+    "originalIn": "Original en {lang}"
+  },
+
+  "visit": {
+    "eyebrow": "Visita'ns",
+    "title": "Al cor de les Roquetes",
+    "whatsapp": "WhatsApp",
+    "call": "Trucar",
+    "directions": "Com arribar-hi",
+    "directionsSub": "Obrir a Maps",
+    "googleListing": "Fitxa de Google",
+    "googleListingSub": "Fotos i ressenyes",
+    "openMap": "Obrir a Google Maps",
+    "note": "Per a grups grans, millor truca abans i reserva taula."
+  },
+
+  "footer": {
+    "writeReview": "Escriure una ressenya",
+    "rights": "Tots els drets reservats.",
+    "dataNote": "Dades de Google Maps, actualitzades a {date}.",
+    "credit": "Les ressenyes pertanyen als seus autors."
+  },
+
+  "jsonLd": {
+    "cuisine": "Tapes, Spanish"
+  },
+
+  "languageNames": {
+    "es": "castellà",
+    "ca": "català",
+    "en": "anglès"
+  }
+}
