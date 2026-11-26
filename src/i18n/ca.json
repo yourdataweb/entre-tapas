@@ -1,157 +1,106 @@
 {
   "locale": "ca",
-  "htmlLang": "ca-ES",
+  "htmlLang": "ca",
   "ogLocale": "ca_ES",
-  "dir": "ltr",
-
-  "meta": {
-    "title": "Entre Tapas — Restaurant de tapes a les Roquetes, Sant Pere de Ribes",
-    "description": "Entre Tapas, restaurant de tapes al Carrer de Roger de Flor, 100, les Roquetes (Sant Pere de Ribes). Cuina casolana, croquetes de la casa, vermut i tracte proper. 4,9 sobre 5 amb 598 ressenyes a Google.",
-    "ogTitle": "Entre Tapas — Tapes casolanes a les Roquetes",
-    "ogDescription": "Cuina casolana, croquetes de la casa i vermut a les Roquetes, Sant Pere de Ribes. 4,9 sobre 5 a Google amb 598 ressenyes."
-  },
-
-  "a11y": {
-    "skip": "Anar al contingut",
-    "home": "Entre Tapas — inici",
-    "openMenu": "Obrir menú",
-    "closeMenu": "Tancar menú",
-    "mainNav": "Navegació principal",
-    "footerNav": "Navegació del peu de pàgina",
-    "socialNav": "Xarxes socials",
-    "atAGlance": "D'un cop d'ull",
-    "mapTitle": "Mapa amb la ubicació d'Entre Tapas al Carrer de Roger de Flor, les Roquetes",
-    "waAria": "Escriure a Entre Tapas per WhatsApp al 628 00 96 23",
-    "telAria": "Trucar a Entre Tapas al 628 00 96 23",
-    "ratingAria": "Valoració de 4,9 sobre 5 basada en 598 ressenyes de Google",
-    "langSwitch": "Canviar d'idioma",
-    "posterAlt": "Il·lustració de la barra de tapes d'Entre Tapas, amb plats per compartir",
-    "newWindow": "s'obre en una pestanya nova"
-  },
-
+  "pathPrefix": "./",
+  "countryName": "Espanya",
   "brand": {
-    "sub": "Tapes · les Roquetes"
+    "sub": "Tapes · Les Roquetes"
   },
-
+  "meta": {
+    "title": "Entre Tapas · Tapes de veritat a Les Roquetes",
+    "description": "Tapes, calamars a la romana, croquetes i paella al Carrer de Roger de Flor, 100, Les Roquetes (Sant Pere de Ribes). Cuina de sempre, tracte de casa. Reserva: 628 00 96 23.",
+    "ogAlt": "Entre Tapas, tapes a Les Roquetes"
+  },
   "nav": {
-    "about": "La casa",
-    "kitchen": "La cuina",
-    "reviews": "Ressenyes",
-    "visit": "Visita'ns"
+    "roast": "La casa",
+    "menu": "La carta",
+    "visit": "On som",
+    "skip": "Ves al contingut principal",
+    "label": "Navegació principal"
   },
-
-  "langSwitch": {
-    "es": { "short": "ES", "aria": "Veure aquesta pàgina en castellà" },
-    "ca": { "short": "CA", "aria": "Veure aquesta pàgina en català" },
-    "en": { "short": "EN", "aria": "View this page in English" }
-  },
-
   "hero": {
-    "title": "Tapes per compartir,<br>fet com a casa.",
-    "lede": "Un restaurant de barri a les Roquetes on la cuina es fa a poc a poc: croquetes que són la seva especialitat, braves amb salsa pròpia, cassola del dia i un vermut molt aromàtic. Sense presses i amb l'amo pendent de cada taula.",
-    "ctaPrimary": "Com arribar-hi",
-    "ctaWhatsapp": "WhatsApp",
-    "statRating": "sobre 5 a Google",
-    "statReviews": "ressenyes a Google",
-    "statWhere": "Sant Pere de Ribes"
+    "eyebrow": "Les Roquetes · Sant Pere de Ribes",
+    "title": "Tapes de veritat, servides amb ganes",
+    "lede": "Calamars a la romana, croquetes, cassola del dia i paella. Cuina de sempre feta al moment, en un bar on l'Esteve i el seu equip t'atenen com a casa.",
+    "whatsapp": "Escriu per WhatsApp",
+    "photoAlt": "il·lustració de l'interior del bar",
+    "credit": ""
   },
-
-  "about": {
+  "strip": {
+    "label": "Informació pràctica",
+    "where": "On som",
+    "order": "Comandes",
+    "orderValue": "Per telèfon o WhatsApp",
+    "rating": "Valoració",
+    "reviews": "opinions"
+  },
+  "roast": {
     "eyebrow": "La casa",
-    "title": "Un local de barri,<br>dels que es fan estimar.",
-    "p1": "Entre Tapas és al Carrer de Roger de Flor, a les Roquetes, el barri de Sant Pere de Ribes que mira cap a la costa del Garraf. És un restaurant petit i sense pretensions, amb taules per compartir i una cuina que fa olor de brou des de primera hora.",
-    "p2": "Aquí es ve a menjar bé i sense cerimònia: plats de sempre, producte honest i racions pensades per posar al centre de la taula. Si és la teva primera vegada, pregunta per les croquetes i per la cassola del dia; si ja ets de la casa, ja saps per què tornes.",
-    "note": "Cuina casolana de tapes, per menjar al local, per emportar o a domicili.",
-    "factAddress": "Adreça",
-    "factPhone": "Telèfon",
-    "factCuisine": "Cuina",
-    "cuisineValue": "Tapes i cuina casolana espanyola"
+    "title": "Un bar de tapes, no un restaurant de carta",
+    "lead": "La gràcia és demanar diverses coses i compartir-les. Plats de sempre, fets al moment, i una carta que no pretén inventar res."
   },
-
-  "kitchen": {
-    "eyebrow": "La cuina",
-    "title": "El que surt de la cuina",
-    "lede": "Una carta curta que canvia segons el que hi ha. Aquests són els plats que més es repeteixen a les ressenyes — i gairebé sempre pel mateix motiu."
+  "menu": {
+    "eyebrow": "La carta",
+    "title": "Què hi ha per picar",
+    "lead": "Els clàssics que la gent demana una i altra vegada, segons el que expliquen les opinions.",
+    "items": {
+      "m1": {
+        "name": "Calamars a la romana",
+        "note": "El clàssic que no falla, arrebossat fi i fregit al moment."
+      },
+      "m2": {
+        "name": "Croquetes",
+        "note": "Cremoses per dins, cruixents per fora."
+      },
+      "m3": {
+        "name": "Cassola del dia",
+        "note": "El que es cuina aquell dia, canvia segons el mercat."
+      },
+      "m4": {
+        "name": "Paella",
+        "note": "Arròs amb producte de mar, per als qui volen plat principal."
+      },
+      "m5": {
+        "name": "Braves",
+        "note": "Amb la salsa de la casa."
+      },
+      "m6": {
+        "name": "Tapes per compartir",
+        "note": "La manera natural de menjar-hi: diverses coses al centre."
+      }
+    },
+    "note": "Sense preus en aquesta pàgina: truca o escriu i et diem què hi ha avui."
   },
-
-  "capabilities": {
-    "serviceOptions": "Servei",
-    "foodAndDrink": "Menjar i beure",
-    "atmosphere": "Ambient",
-    "amenities": "Instal·lacions",
-    "parking": "Aparcament",
-    "accessibility": "Accessibilitat",
-    "payments": "Pagaments",
-    "labels": {
-      "Dine-in": "Per menjar al local",
-      "Takeaway": "Per emportar",
-      "Delivery": "A domicili",
-      "Outdoor seating": "Terrassa exterior",
-      "Reservable": "Es pot reservar",
-      "Breakfast": "Esmorzars",
-      "Lunch": "Dinars",
-      "Dinner": "Sopars",
-      "Beer": "Cervesa",
-      "Wine": "Vi",
-      "Cocktails": "Còctels",
-      "Coffee": "Cafè",
-      "Dessert": "Postres",
-      "Vegetarian options": "Opcions vegetarianes",
-      "Good for children": "Apte per a nens",
-      "Menu for children": "Menú infantil",
-      "Good for groups": "Ideal per a grups",
-      "Live music": "Música en directe",
-      "Good for watching sports": "Per veure esport",
-      "Restroom": "Lavabos",
-      "Free parking lot": "Aparcament gratuït",
-      "Free street parking": "Estacionament gratuït al carrer",
-      "Wheelchair-accessible entrance": "Entrada accessible amb cadira de rodes",
-      "Wheelchair-accessible restroom": "Lavabo accessible amb cadira de rodes",
-      "Wheelchair-accessible seating": "Taules accessibles amb cadira de rodes",
-      "Credit cards": "Targetes de crèdit",
-      "Debit cards": "Targetes de dèbit",
-      "Contactless (NFC)": "Pagament sense contacte (NFC)",
-      "Cash only": "Només efectiu"
-    }
-  },
-
   "reviews": {
-    "eyebrow": "Què diuen",
-    "title": "Els qui ja hi han menjat",
-    "count": "{count} ressenyes",
-    "onGoogle": "a Google",
-    "readAll": "Veure totes les ressenyes a Google",
-    "write": "Escriure una ressenya",
-    "originalIn": "Original en {lang}"
+    "eyebrow": "Opinions",
+    "title": "Què diu qui ja hi ha menjat",
+    "lead": "Extractes d'opinions publicades a Google per clients del bar.",
+    "readAll": "Llegeix totes les opinions"
   },
-
   "visit": {
-    "eyebrow": "Visita'ns",
-    "title": "Al cor de les Roquetes",
-    "whatsapp": "WhatsApp",
-    "call": "Trucar",
+    "eyebrow": "On som",
+    "title": "Com arribar-hi",
+    "lead": "Al Carrer de Roger de Flor, 100, a Les Roquetes (Sant Pere de Ribes). Truca per reservar taula.",
+    "address": "Adreça",
+    "phone": "Telèfon",
+    "plus": "Plus Code",
     "directions": "Com arribar-hi",
-    "directionsSub": "Obrir a Maps",
-    "googleListing": "Fitxa de Google",
-    "googleListingSub": "Fotos i ressenyes",
-    "openMap": "Obrir a Google Maps",
-    "note": "Per a grups grans, millor truca abans i reserva taula."
+    "mapTitle": "Mapa amb la ubicació d'Entre Tapas a Les Roquetes",
+    "mapNote": "El mapa només es carrega si acceptes les galetes de tercers.",
+    "mapLoad": "Carrega el mapa"
   },
-
   "footer": {
-    "writeReview": "Escriure una ressenya",
-    "rights": "Tots els drets reservats.",
-    "dataNote": "Dades de Google Maps, actualitzades a {date}.",
-    "credit": "Les ressenyes pertanyen als seus autors."
+    "legal": "Aquesta pàgina és una fitxa informativa del bar. Per a reserves i disponibilitat, contacta directament amb l'establiment."
   },
-
-  "jsonLd": {
-    "cuisine": "Tapes, Spanish"
+  "cookies": {
+    "text": "Fem servir galetes tècniques per recordar la teva elecció. Si acceptes, també mesurem les visites amb Google Analytics i carreguem el mapa de Google.",
+    "accept": "Accepta",
+    "reject": "Només essencials",
+    "policy": "Més informació"
   },
-
-  "languageNames": {
-    "es": "castellà",
-    "ca": "català",
-    "en": "anglès"
+  "a11y": {
+    "langSwitch": "Canviar d'idioma",
+    "menuToggle": "Obre el menú de navegació"
   }
 }

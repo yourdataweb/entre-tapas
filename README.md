@@ -1,163 +1,82 @@
-# Entre Tapas
+# Entre Tapas — website
 
-Trilingual static website for **Entre Tapas**, a tapas restaurant at Carrer de Roger de Flor, 100, Les Roquetes (Sant Pere de Ribes, Barcelona).
+Static site for **Entre Tapas**, a tapas bar at Carrer de Roger de Flor, 100, Les Roquetes, Vilanova i la Geltrú.
 
-**Live:** https://yourdataweb.github.io/entre-tapas/
-**Català:** https://yourdataweb.github.io/entre-tapas/ca/
-**English:** https://yourdataweb.github.io/entre-tapas/en/
+Three languages, server-rendered HTML per locale, plain CSS and one small
+progressive-enhancement script. No framework, no runtime dependencies.
 
-Hand-written HTML, CSS and vanilla JS with a small dependency-free build step. No framework, no runtime dependencies, no client-side rendering.
+## Live site
 
----
+- **Catalan (default):** <https://entre-tapas.vilanovailageltru.info/>
+- **Spanish:** <https://entre-tapas.vilanovailageltru.info/es/>
+- **English:** <https://entre-tapas.vilanovailageltru.info/en/>
 
-## Project identity
+## Page structure
 
-| Field | Value |
-|---|---|
-| Code name | `entre-tapas` |
-| Domain label | `entre-tapas` |
-| Repository | `entre-tapas` |
-| S3 prefix | `entre-tapas/` |
+Hero over a generated illustration of the bar interior, with WhatsApp ordering and the
+phone beside it. A practical strip, then what the house is, the menu as a price-free list of the
+classics, guest reviews, and how to get there with the consent-gated map.
 
-Lowercase ASCII, hyphen-separated, no edge hyphens — valid as an RFC 1123 DNS label (≤63 chars), a GitHub repository name and an S3 bucket prefix.
-
-## Data source
-
-Business facts come from the Google Places API (New) payload for place ID
-`ChIJxX0lreGHoxIRtBl22Ncw_7E`, captured in the `geoleads` dataset
-(`data/places/vilanova_i_la_geltru_catalonia_spain.csv`, commit `98536e7`).
-That record was dropped from the current CSV in a later data refresh, so the
-values were read from git history.
-
-| Field | Value |
-|---|---|
-| Address | Carrer de Roger de Flor, 100, 08812 Les Roquetes |
-| Primary type | `tapas_restaurant` |
-| Rating | 4.9 from 598 reviews |
-| Phone | 628 00 96 23 (mobile → WhatsApp enabled) |
-| Website | none |
-| Social profiles | none beyond the Google listing |
-
-## Structure
+## Repo layout
 
 ```
-.
-├── src/
-│   ├── template.html          # single HTML template with {{i18n}} holes
-│   ├── place.json             # business data (edit here)
-│   └── i18n/
-│       ├── es.json            # Spanish (default)
-│       ├── ca.json            # Catalan
-│       └── en.json            # English
-├── index.html                 # GENERATED — Spanish
-├── ca/index.html              # GENERATED — Catalan
-├── en/index.html              # GENERATED — English
-├── assets/
-│   ├── css/styles.css
-│   ├── js/app.js              # behaviour only; content is in the HTML
-│   └── photos/                # SVG artwork, og.png, touch icon
-├── scripts/
-│   ├── build.mjs              # renders every locale
-│   ├── make-icons.mjs         # og.png + apple-touch-icon.png
-│   ├── verify.mjs             # headless functional assertions
-│   └── audit-layout.mjs       # geometry, contrast, touch-target audit
-└── .github/workflows/pages.yml
+index.html                 Catalan (default locale)
+es/index.html              Spanish
+en/index.html              English
+ca/index.html              redirect to / (the default locale used to live here)
+src/template.html          the single template the build renders
+src/data.json              business data (address, phone, coordinates, rating)
+src/locales.json           locale list, which one is default, hreflang codes
+src/i18n/{ca,es,en}.json   all copy, per locale
+scripts/build.mjs          renders the locale pages + sitemap, robots, manifest
+scripts/assets.mjs         app icons and the Open Graph image
+scripts/card.mjs           handover card, 10.5 x 14.5 cm @ 300 dpi
+scripts/verify.mjs         headless checks against the built output
+assets/css/styles.css      all styles, responsive from 320 px up
+assets/js/main.js          navigation, reveal, cookie consent, lazy map
+assets/fonts/              self-hosted Fraunces and Inter (woff2 subsets)
+assets/img/                mark, icons, hero photo, OG image
+assets/photos/handover.png handover card with a QR to the live site
+.github/workflows/         deploy to S3 on push to main
 ```
 
 ## Build
 
-```bash
-node scripts/build.mjs
-```
-
-Emits `index.html`, `ca/index.html`, `en/index.html`, `sitemap.xml`,
-`manifest.webmanifest` and `robots.txt`. The build **fails** if any `{{hole}}`
-or `<!--MARKER-->` survives into the output. The workflow runs it on every push
-to `main`.
-
-Every locale is **real server-rendered HTML** — not a JS language swap. Each has
-its own `<html lang>`, canonical URL, `og:locale`, and a reciprocal `hreflang`
-set for all three languages plus `x-default`.
-
-## Localization
-
-Strings live in `src/i18n/{es,ca,en}.json`. Add a key to all three, reference it
-as `{{section.key}}` in `src/template.html`, rebuild.
-
-- Spanish at `/` (default)
-- Catalan at `/ca/`
-- English at `/en/`
-
-The switch is a plain link group, so it works with JavaScript disabled.
-Numbers and dates are formatted per locale (`4.9` vs `4,9`).
-
-Spanish is the default because the business serves a Spanish-speaking
-neighbourhood; Catalan is offered because it is the local official language.
-
-## Conditional business rules
-
-Implemented once in `scripts/build.mjs`, so all locales agree:
-
-| Rule | Behaviour |
-|---|---|
-| `rating > 4` | Large star badge in the reviews section (4.9 → shown) |
-| `user_rating_count > 50` | Review count shown next to it, and as a hero stat (598 → shown) |
-| phone is a Spanish mobile (`+34 6xx/7xx`) | WhatsApp links in the hero, the contact block and a floating button |
-| phone is a landline | Call link only, no WhatsApp affordance |
-| review rating ≥ 4 | Eligible as a testimonial — longest first, max 3 |
-| `raw_price_range` | **Not published** (explicitly excluded) |
-| opening hours | **Not published** (explicitly excluded) |
-
-The WhatsApp link is `https://wa.me/34628009623` with **no** `?text=`, so on a
-phone it opens the chat directly with no draft message.
-
-## Accessibility
-
-- Landmark structure, single `h1`, no skipped heading levels
-- Skip link, visible focus rings
-- `aria-expanded` / `aria-controls` on the mobile drawer; Escape closes it
-- `aria-label` on icon-only links, announcing "opens in a new tab"
-- Decorative SVGs `aria-hidden` + `focusable="false"`; decorative images `alt=""`
-- Review text carries its own `lang` when it differs from the page
-- Text contrast verified ≥ 4.5:1 on solid backgrounds (`--ink-mute` is 5.15:1)
-- Touch targets ≥ 44 px at mobile widths
-- Respects `prefers-reduced-motion`; print stylesheet included
-
-## SEO
-
-- Unique title, description, `h1` and copy per locale
-- Reciprocal `hreflang` (es / ca / en / x-default) in the HTML and the sitemap
-- Canonical URL per locale
-- Open Graph + Twitter card with a generated 1200×630 image
-- `Restaurant` JSON-LD: address, geo, rating, `servesCuisine`, `sameAs`
-- `robots.txt`, `sitemap.xml`, web manifest
-
-## Verification
+Requires Node 20+ and `puppeteer` for the asset scripts.
 
 ```bash
-node scripts/build.mjs
-python3 -m http.server 8099 &
-node scripts/verify.mjs        # functional + a11y assertions, screenshots
-node scripts/audit-layout.mjs  # 3 locales × 5 viewports: overflow, contrast, targets
+node scripts/build.mjs     # render the locale pages
+node scripts/assets.mjs    # regenerate icons and og-image.jpg
+node scripts/card.mjs      # regenerate the handover card
+node scripts/verify.mjs    # headless verification of the built output
 ```
 
-`verify.mjs` asserts, per locale: exactly one `h1`, no heading-level jumps,
-canonical + 4 `hreflang` links, one active language, testimonials present,
-`wa.me` link without a prefilled message, correct `tel:` target, rating badge,
-parseable JSON-LD, an `output=embed` map, **zero** published hours and **zero**
-published price text, and no horizontal overflow. It also drives the language
-switch across all three locales and the mobile drawer.
+`build.mjs` fails on an unresolved template placeholder, an empty `href`/`src`, invalid
+JSON-LD, or a feature icon that has no entry in `scripts/icons.json`.
+
+## Editing content
+
+Text lives in `src/i18n/*.json`; shared business facts live in `src/data.json`. Change those,
+run `node scripts/build.mjs`, commit the regenerated HTML. Do not hand-edit the generated
+`index.html` files — they are overwritten.
 
 ## Deploy
 
-Push to `main`; the workflow builds and deploys. First-time setup:
-**Settings → Pages → Source: GitHub Actions**.
+Pushing to `main` runs `.github/workflows/deploy-aws.yml`: it builds the site, authenticates
+to AWS with OIDC (no stored keys) and uploads to
+`s3://dr-static-websites/vilanovailageltru.info/entre-tapas/`. The subdomain is served from the bucket's CDN, so a
+deploy is live within a few minutes.
 
-All asset paths are relative, so the site also works from a subpath or an S3
-prefix unchanged.
+## Technical notes
 
-## Attribution
-
-Business data from the Google Maps Places API. Review text and reviewer avatars
-belong to their authors and appear as attributed testimonials. The map embed is
-served by Google Maps.
+- **SEO** — per-locale `<title>`, description, canonical, reciprocal `hreflang` including
+  `x-default`, Open Graph and Twitter cards, `sitemap.xml` with alternates, `robots.txt`, and
+  `Restaurant` structured data. Every absolute URL derives from the site's own domain.
+- **Accessibility** — one `h1` per page, skip link, landmark elements, visible focus rings,
+  body text at or above 4.5:1 contrast, `aria-expanded` on the navigation toggle, Escape
+  closes the drawer, and content stays readable with JavaScript disabled.
+- **Performance** — self-hosted woff2 subsets preloaded, one CSS file, one deferred JS file,
+  no third-party requests until the visitor opts in.
+- **Privacy** — the cookie notice offers accept and reject. Nothing is fetched from Google —
+  analytics script or map iframe — until the visitor accepts; rejecting loads neither and is
+  remembered.

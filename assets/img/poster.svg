@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="presentation">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#3a2a1e"/><stop offset="0.6" stop-color="#5a412d"/>
+      <stop offset="1" stop-color="#2b1d14"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#f6d68a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#f6d68a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="counter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4c31"/><stop offset="1" stop-color="#241812"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wall)"/>
+
+  <!-- hanging lamps -->
+  <g>
+    <circle cx="330" cy="230" r="210" fill="url(#lamp)"/>
+    <circle cx="800" cy="200" r="240" fill="url(#lamp)"/>
+    <circle cx="1270" cy="235" r="210" fill="url(#lamp)"/>
+    <g stroke="#2b1d14" stroke-width="4">
+      <path d="M330 0 V150"/><path d="M800 0 V120"/><path d="M1270 0 V155"/>
+    </g>
+    <g fill="#f6d68a">
+      <path d="M300 150 h60 l-12 34 h-36 Z"/><path d="M770 120 h60 l-12 34 h-36 Z"/>
+      <path d="M1240 155 h60 l-12 34 h-36 Z"/>
+    </g>
+  </g>
+
+  <!-- shelf of small plates -->
+  <g>
+    <rect x="120" y="352" width="1360" height="14" rx="4" fill="#3f2c1e"/>
+    <g fill="#e8ddc8" opacity="0.9">
+      <ellipse cx="240" cy="336" rx="34" ry="12"/><ellipse cx="360" cy="336" rx="34" ry="12"/>
+      <ellipse cx="480" cy="336" rx="34" ry="12"/><ellipse cx="1120" cy="336" rx="34" ry="12"/>
+      <ellipse cx="1240" cy="336" rx="34" ry="12"/><ellipse cx="1360" cy="336" rx="34" ry="12"/>
+    </g>
+    <g fill="#c9a227" opacity="0.75">
+      <circle cx="240" cy="330" r="7"/><circle cx="360" cy="330" r="7"/><circle cx="480" cy="330" r="7"/>
+      <circle cx="1120" cy="330" r="7"/><circle cx="1240" cy="330" r="7"/><circle cx="1360" cy="330" r="7"/>
+    </g>
+  </g>
+
+  <!-- counter -->
+  <rect x="0" y="700" width="1600" height="300" fill="url(#counter)"/>
+  <rect x="0" y="688" width="1600" height="16" fill="#8a6641"/>
+
+  <!-- plates and glasses on the counter -->
+  <g>
+    <g fill="#efe6d4">
+      <ellipse cx="330" cy="742" rx="96" ry="26"/>
+      <ellipse cx="800" cy="756" rx="112" ry="30"/>
+      <ellipse cx="1250" cy="744" rx="88" ry="24"/>
+    </g>
+    <g fill="#b8873a" opacity="0.9">
+      <ellipse cx="330" cy="734" rx="58" ry="14"/>
+      <ellipse cx="800" cy="748" rx="70" ry="17"/>
+      <ellipse cx="1250" cy="736" rx="52" ry="12"/>
+    </g>
+    <!-- glasses -->
+    <g fill="none" stroke="#e8ddc8" stroke-width="4" opacity="0.85">
+      <path d="M520 690 h34 l-4 62 h-26 Z"/><path d="M1050 690 h34 l-4 62 h-26 Z"/>
+    </g>
+    <g fill="#9c6b2f" opacity="0.75">
+      <path d="M524 716 h26 l-2 34 h-22 Z"/><path d="M1054 716 h26 l-2 34 h-22 Z"/>
+    </g>
+  </g>
+
+  <!-- tiled wall detail -->
+  <g opacity="0.14" fill="#f6d68a">
+    <rect x="120" y="430" width="120" height="120"/><rect x="260" y="430" width="120" height="120"/>
+    <rect x="400" y="430" width="120" height="120"/><rect x="540" y="430" width="120" height="120"/>
+    <rect x="940" y="430" width="120" height="120"/><rect x="1080" y="430" width="120" height="120"/>
+    <rect x="1220" y="430" width="120" height="120"/><rect x="1360" y="430" width="120" height="120"/>
+  </g>
+</svg>

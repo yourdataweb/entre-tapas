@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdataweb.github.io/entre-tapas/sitemap.xml
+Sitemap: https://entre-tapas.vilanovailageltru.info/sitemap.xml

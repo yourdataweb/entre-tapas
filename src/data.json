@@ -1,0 +1,72 @@
+{
+  "slug": "entre-tapas",
+  "siteDomain": "vilanovailageltru.info",
+  "name": "Entre Tapas",
+  "legalName": "Entre Tapas",
+  "schemaType": "Restaurant",
+  "primaryType": "tapas_restaurant",
+  "street": "Carrer de Roger de Flor, 100",
+  "postalCode": "08812",
+  "city": "Sant Pere de Ribes",
+  "region": "Barcelona",
+  "country": "ES",
+  "latitude": 41.2312701,
+  "longitude": 1.747625,
+  "phoneNational": "628 00 96 23",
+  "phoneE164": "+34 628 00 96 23",
+  "phoneIsMobile": true,
+  "website": "",
+  "rating": 4.9,
+  "ratingCount": 598,
+  "plusCode": "8FH36PJX+G2",
+  "mapsPlaceUri": "https://maps.google.com/?cid=12826023967382182324",
+  "mapsReviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x12a387e1ad257dc5:0xb1ff30d7d87619b4!9m1!1b1",
+  "mapsDirectionsUri": "https://www.google.com/maps/dir/?api=1&destination=41.2312701,1.747625&destination_place_id=ChIJxX0lreGHoxIRtBl22Ncw_7E",
+  "servesCuisine": [],
+  "acceptsReservations": true,
+  "reviews": [
+    {
+      "author": "Pau Vigil",
+      "text": "A must try “tapas” experience. Have no doubt, Esteve and his team deliver. Will definitely comeback, thank you 5/5",
+      "rating": 5,
+      "relative": "2025-07-18"
+    },
+    {
+      "author": "David Weatherill",
+      "text": "Such friendly staff, translated the whole menu just for us. Amazing food, really authentic. Coming again!",
+      "rating": 5,
+      "relative": "2026-07-12"
+    },
+    {
+      "author": "Angela Bestauti",
+      "text": "Everything we had — calamares a la romana, cazuela del día, croquetas, bravas — was delicious and had its own twist. The croquetas are their specialty and it shows: solid, meaty, not flour balls. The owner himself, whose name is Esteve, is a gentle soul and a friendly host. The vermouth is very aromatic.",
+      "rating": 5,
+      "relative": "2024-07-27"
+    },
+    {
+      "author": "Alana A",
+      "text": "Excellent food and service. The owner is very attentive and friendly. Local, authentic place — a must visit.",
+      "rating": 5,
+      "relative": "2024-09-03"
+    },
+    {
+      "author": "Simon",
+      "text": "Because it was so delicious, we came back the next day. Today we chose paella. It tasted just as good. Whenever we are back on holiday, this restaurant will be our first choice.",
+      "rating": 5,
+      "relative": "2024-11-09"
+    }
+  ],
+  "heroPhoto": "",
+  "photoCredit": "",
+  "photoCreditUrl": "",
+  "manifestTheme": "#2b3a2e",
+  "manifestBackground": "#faf8f4",
+  "accent": "#2b3a2e",
+  "deep": "#1c2a20",
+  "gold": "#c9a227",
+  "light": "#9db9a4",
+  "redirects": {
+    "ca": "/"
+  },
+  "photoSelector": ".hero__art"
+}
